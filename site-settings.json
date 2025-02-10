@@ -19,10 +19,10 @@
 	},
 	"top_banner": {
 		"enable": true,
-		"description": "-50% Intro price for the next 72 hours only!.",
+		"description":,
 		"end_link": {
-			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
-			"text": "Buy now  →",
+			"url": "",
+			"text": "  →",
 			"new_tab": true
 		}
 	},
