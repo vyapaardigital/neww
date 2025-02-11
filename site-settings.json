@@ -125,7 +125,7 @@
 	"submissions-settings": {
 		"enable": true,
 		"max_categories_allowed": 3,
-		"max_tags_allowed": 5,
+		"max_tags_allowed": 10,
 		"allow_upload_media": true,
 		"allow_upload_media_max_size_mb": 5,
 		"post_options": [
