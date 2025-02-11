@@ -19,10 +19,10 @@
 	},
 	"top_banner": {
 		"enable": true,
-		"description":,
+		"description": "-50% Intro price for the next 72 hours only!.",
 		"end_link": {
-			"url": "",
-			"text": "  →",
+			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
+			"text": "Buy now  →",
 			"new_tab": true
 		}
 	},
@@ -32,10 +32,10 @@
 		"sub_title": "Let's explore the most popular categories"
 	},
 	"site_info": {
-		"site_title": "MPCG LIVE",
-		"site_description": "AI WALI NEWS WEBSITE",
-		"site_keywords": "News, best news,",
-		"site_author": "Admonkey",
+		"site_title": "Ncmaz Nextjs Blog",
+		"site_description": "Ncmaz Nextjs Blog headless WordPress",
+		"site_keywords": "Ncmaz Nextjs Blog",
+		"site_author": "ChisNghiax",
 		"site_email": "Your Email",
 		"site_phone": "Your Phone",
 		"site_address": "Your Address",
@@ -43,7 +43,7 @@
 		"site_state": "Your State",
 		"site_zip": "Your Zip",
 		"site_country": "Your Country",
-		"site_url": "https://www.admonkey.in",
+		"site_url": "https://www.yoursite.com",
 		"site_logo": "/logo.png",
 		"site_logo_light": "/logo-light.png",
 		"site_favicon": "/favicon.png"
@@ -82,7 +82,7 @@
 		}
 	},
 	"site_footer": {
-		"all_rights_reserved_text": "© 2024 Admonkey, Inc. All rights reserved."
+		"all_rights_reserved_text": "© 2024 BooliiTheme Company, Inc. All rights reserved."
 	},
 	"single_page": {
 		"show_view_cout": true,
@@ -125,7 +125,7 @@
 	"submissions-settings": {
 		"enable": true,
 		"max_categories_allowed": 3,
-		"max_tags_allowed": 10,
+		"max_tags_allowed": 5,
 		"allow_upload_media": true,
 		"allow_upload_media_max_size_mb": 5,
 		"post_options": [
@@ -208,7 +208,7 @@
 		}
 	},
 	"mobile_nav_sidebar": {
-		"description": " "
+		"description": "Discover the most outstanding articles on all topics of life. Write your stories and share them with the community. "
 	},
 	"help_page": {
 		"uri": "/helps",
@@ -227,17 +227,17 @@
 			{
 				"name": "address",
 				"title": "🚀 ADDRESS",
-				"desc": " "
+				"desc": "123 Main Street, New York, NY 10001"
 			},
 			{
 				"name": "email",
 				"title": "💌 EMAIL",
-				"desc": " "
+				"desc": "example@example.com"
 			},
 			{
 				"name": "phone",
 				"title": "☎️ PHONE",
-				"desc": " "
+				"desc": "+88 123 456 789"
 			},
 			{
 				"name": "working_hours",
