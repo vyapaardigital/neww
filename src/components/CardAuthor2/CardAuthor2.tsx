@@ -2,7 +2,7 @@ import { FC } from 'react'
 import Avatar from '@/components/Avatar/Avatar'
 import Link from 'next/link'
 import { NcmazFcUserFullFieldsFragment } from '@/__generated__/graphql'
-import { FragmentType } from '@/__generated__'
+import { FragmentType, useFragment } from '@/__generated__'
 import { NC_USER_FULL_FIELDS_FRAGMENT } from '@/fragments'
 import ncFormatDate from '@/utils/formatDate'
 import { getUserDataFromUserCardFragment } from '@/utils/getUserDataFromUserCardFragment'
@@ -45,10 +45,14 @@ const CardAuthor2: FC<CardAuthor2Props> = ({
 				userName={name || ''}
 			/>
 			<div>
-				<h2 className="text-sm font-medium capitalize text-neutral-700 hover:text-black dark:text-neutral-300 dark:hover:text-white">
+				<h2
+					className={`text-sm font-medium capitalize text-neutral-700 hover:text-black dark:text-neutral-300 dark:hover:text-white`}
+				>
 					{name}
 				</h2>
-				<span className="mt-1 flex flex-wrap items-center text-xs text-neutral-500 dark:text-neutral-400">
+				<span
+					className={`mt-1 flex items-center text-xs text-neutral-500 dark:text-neutral-400`}
+				>
 					<span>{ncFormatDate(date || '')}</span>
 					{readingTime && (
 						<>

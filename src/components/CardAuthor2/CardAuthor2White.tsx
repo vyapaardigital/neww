@@ -34,10 +34,14 @@ const CardAuthor2White: FC<CardAuthor2WhiteProps> = ({
 				userName={name || ''}
 			/>
 			<div>
-				<h2 className="text-sm font-medium capitalize text-neutral-200 hover:text-white dark:text-neutral-700 dark:hover:text-black">
+				<h2
+					className={`text-sm font-medium capitalize text-neutral-200 hover:text-white dark:text-neutral-700 dark:hover:text-black`}
+				>
 					{name}
 				</h2>
-				<span className="mt-1 flex flex-wrap items-center text-xs text-neutral-300 dark:text-neutral-700">
+				<span
+					className={`mt-1 flex items-center text-xs text-neutral-300 dark:text-neutral-700`}
+				>
 					<span>{date}</span>
 					{readingTime && (
 						<>

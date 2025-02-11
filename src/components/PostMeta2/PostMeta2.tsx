@@ -79,7 +79,7 @@ const PostMeta2: FC<PostMeta2Props> = ({
 						</>
 					)}
 				</div>
-				<div className="mt-[6px] flex-wrap text-xs">
+				<div className="mt-[6px] text-xs">
 					<span className="text-neutral-700 dark:text-neutral-300">
 						{ncFormatDate(date || '')}
 					</span>
